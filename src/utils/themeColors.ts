@@ -26,8 +26,8 @@ const bodyColor = {
 };
 
 const primaryColor = {
-  light: "#FFE1E6",
-  main: "#E94560",
+  light: "rgb(152,213,252)",
+  main: "#007BC4",
   // dark: "#D23F57",
   dark: "#4F4CB6",
   text: "#ffffff",
@@ -35,8 +35,8 @@ const primaryColor = {
 };
 
 const secondaryColor = {
-  light: "rgba(15, 52, 96, 0.2)",
-  main: "rgba(15, 52, 96, 1)",
+  light: "rgba(3,152,93,0.2)",
+  main: "#03985D",
   dark: "#303A47",
   text: "#ffffff",
   900: "#041533",

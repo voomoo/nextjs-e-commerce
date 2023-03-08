@@ -34,8 +34,10 @@ const Footer: React.FC = () => {
                 <Link href="/">
                   <a>
                     <Image
+                        height={100}
+                        style={{borderRadius: "10px"}}
                       mb="1.25rem"
-                      src="/assets/images/logo.svg"
+                      src="/assets/images/nafisa-logo.jpg"
                       alt="logo"
                     />
                   </a>

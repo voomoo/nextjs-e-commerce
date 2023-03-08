@@ -54,7 +54,7 @@ const GroceryFooter: React.FC = () => {
       >
         <Link href="/">
           <a>
-            <Image mb="1.5rem" src="/assets/images/logo.svg" alt="logo" />
+            <Image mb="1.5rem" height={70} src="/assets/images/nafisa-logo.jpg" alt="logo" style={{borderRadius: "10px"}}/>
           </a>
         </Link>
 
