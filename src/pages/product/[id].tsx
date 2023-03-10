@@ -1,8 +1,8 @@
 import Box from "@component/Box";
 import FlexBox from "@component/FlexBox";
 import NavbarLayout from "@component/layout/NavbarLayout";
-import AvailableShops from "@component/products/AvailableShops";
-import FrequentlyBought from "@component/products/FrequentlyBought";
+// import AvailableShops from "@component/products/AvailableShops";
+// import FrequentlyBought from "@component/products/FrequentlyBought";
 import ProductDescription from "@component/products/ProductDescription";
 import ProductIntro from "@component/products/ProductIntro";
 import ProductReview from "@component/products/ProductReview";
@@ -62,9 +62,9 @@ const ProductDetails = () => {
         {selectedOption === "review" && <ProductReview />}
       </Box>
 
-      <FrequentlyBought />
+      {/*<FrequentlyBought />*/}
 
-      <AvailableShops />
+      {/*<AvailableShops />*/}
 
       <RelatedProducts />
     </div>

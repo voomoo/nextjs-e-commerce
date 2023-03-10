@@ -1,8 +1,8 @@
 const navigations = [
   {
     icon: "dress",
-    title: "Fashion",
-    href: "/fashion",
+    title: "Air Condition",
+    href: "/air-condition",
     menuComponent: "MegaMenu1",
     menuData: {
       categories: [
@@ -223,8 +223,9 @@ const navigations = [
   },
   {
     icon: "laptop",
-    title: "Electronics",
-    href: "/product/search/electronics",
+    title: "Televisions",
+    // href: "/product/search/electronics",
+    href: "/televisions",
     menuComponent: "MegaMenu1",
     menuData: {
       categories: [
@@ -445,8 +446,8 @@ const navigations = [
   },
   {
     icon: "motorbike",
-    title: "Bikes",
-    href: "/product/search/bikes",
+    title: "Refrigerators & Freezers",
+    href: "/refrigerators-and-freezers",
     menuComponent: "MegaMenu2",
     menuData: [
       {
@@ -585,8 +586,8 @@ const navigations = [
   },
   {
     icon: "plant-pot",
-    title: "Home & Garden",
-    href: "/product/search/home&garden",
+    title: "Cooling & Heating Appliances",
+    href: "cooling-and-heating-appliances",
     menuComponent: "MegaMenu1",
     menuData: {
       categories: [
@@ -803,8 +804,8 @@ const navigations = [
   },
   {
     icon: "gift-1",
-    title: "Gifts",
-    href: "/product/search/gifts",
+    title: "Wash - Dry & Cleaning Appliances",
+    href: "/wash-dry-cleaning-appliances",
     menuComponent: "MegaMenu2",
     menuData: [
       {
@@ -866,40 +867,28 @@ const navigations = [
   },
   {
     icon: "voice-recorder",
-    title: "Music",
-    href: "/product/search/music",
+    title: "Home Appliances",
+    href: "/home-appliances",
     menuComponent: "MegaMenu1",
   },
   {
     icon: "make-up",
-    title: "Health & Beauty",
-    href: "/product/search/health&beauty",
+    title: "Water Treatment Appliances",
+    href: "/water-treatment-appliances",
     menuComponent: "MegaMenu1",
   },
   {
     icon: "track",
-    title: "Pets",
-    href: "/product/search/pets",
+    title: "Personal Care",
+    href: "/personal-care",
     menuComponent: "MegaMenu1",
   },
   {
     icon: "teddy-bear",
-    title: "Baby Toys",
-    href: "/product/search/baby-toys",
+    title: "Services",
+    href: "/services",
     menuComponent: "MegaMenu1",
-  },
-  {
-    icon: "food",
-    title: "Groceries",
-    href: "/product/search/groceries",
-    menuComponent: "MegaMenu1",
-  },
-  {
-    icon: "car",
-    title: "Automotive",
-    href: "/product/search/automotive",
-    menuComponent: "MegaMenu1",
-  },
+  }
 ];
 
 export default navigations;

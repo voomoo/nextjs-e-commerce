@@ -5,7 +5,11 @@ import Carousel from "../carousel/Carousel";
 import CategorySectionCreator from "../CategorySectionCreator";
 import ProductCard1 from "../product-cards/ProductCard1";
 
-const Section2: React.FC = () => {
+interface Section2Props {
+    title?: string;
+}
+
+const Section2: React.FC<Section2Props> = ({title=""}) => {
   const [visibleSlides, setVisibleSlides] = useState(4);
   const width = useWindowSize();
 
@@ -18,8 +22,8 @@ const Section2: React.FC = () => {
 
   return (
     <CategorySectionCreator
-      iconName="light"
-      title="Flash Deals"
+      // iconName="light"
+      title={title}
       seeMoreLink="#"
     >
       <Box mt="-0.25rem" mb="-0.25rem">

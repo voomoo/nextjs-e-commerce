@@ -1,4 +1,4 @@
-import AppStore from "@component/AppStore";
+// import AppStore from "@component/AppStore";
 import Image from "@component/Image";
 import Link from "next/link";
 import React from "react";
@@ -49,7 +49,7 @@ const Footer: React.FC = () => {
                   cursus. Erat et lectus vel ut sollicitudin elit at amet.
                 </Paragraph>
 
-                <AppStore />
+                {/*<AppStore />*/}
               </Grid>
 
               <Grid item lg={2} md={6} sm={6} xs={12}>
@@ -100,13 +100,13 @@ const Footer: React.FC = () => {
                   Contact Us
                 </Typography>
                 <Typography py="0.3rem" color="gray.500">
-                  70 Washington Square South, New York, NY 10012, United States
+                  Lorem Road, Dhaka, Bangladesh
                 </Typography>
                 <Typography py="0.3rem" color="gray.500">
-                  Email: uilib.help@gmail.com
+                  Email: help@nafisa-electronics.com
                 </Typography>
                 <Typography py="0.3rem" mb="1rem" color="gray.500">
-                  Phone: +1 1123 456 780
+                  Phone: +880 1711 111 111
                 </Typography>
 
                 <FlexBox className="flex" mx="-5px">
@@ -152,16 +152,16 @@ const customerCareLinks = [
   "Help Center",
   "How to Buy",
   "Track Your Order",
-  "Corporate & Bulk Purchasing",
+  // "Corporate & Bulk Purchasing",
   "Returns & Refunds",
 ];
 
 const iconList = [
-  { iconName: "facebook", url: "https://www.facebook.com/UILibOfficial" },
+  { iconName: "facebook", url: "https://www.facebook.com/" },
   { iconName: "twitter", url: "/" },
   {
     iconName: "youtube",
-    url: "https://www.youtube.com/channel/UCsIyD-TSO1wQFz-n2Y4i3Rg",
+    url: "https://www.youtube.com/",
   },
   { iconName: "google", url: "/" },
   { iconName: "instagram", url: "/" },
